@@ -1,0 +1,26 @@
+# Environnements et caches Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Données : trop lourdes / licences propres (voir data/LISEZ-MOI.txt)
+data/*
+!data/LISEZ-MOI.txt
+
+# Résultats générés à l'exécution (régénérables)
+outputs/
+
+# Poids de modèles et caches Hugging Face
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

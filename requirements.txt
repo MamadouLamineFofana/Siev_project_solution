@@ -1,0 +1,15 @@
+# Python 3.12 / 3.13
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+nltk>=3.8
+wordcloud>=1.9
+tqdm>=4.66
+jupyterlab>=4.0
+ipykernel>=6.29
+transformers>=4.40
+# PyTorch : installe la version adaptée à ton GPU depuis https://pytorch.org/get-started/locally/
+# (RTX 3050 Ti sous Windows : choisir Pip + CUDA, puis coller la commande générée)
+torch>=2.2
